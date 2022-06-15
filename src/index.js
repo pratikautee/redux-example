@@ -11,6 +11,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
+    {/* Wrap the app in Redux's Provider and pass in the store to be used by children components */}
     <Provider store={store}>
       <App />
     </Provider>
